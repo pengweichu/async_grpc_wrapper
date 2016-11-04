@@ -103,7 +103,7 @@ public:
 		if (!mShutdown)
 		{
 			mCompletionQueue.Shutdown();
-			mShutdown = false;
+			mShutdown = true;
 		}
 	}
 

@@ -134,7 +134,7 @@ void GrpcServer<TSERVICE>::shutdown()
 		mServer->Shutdown();
 		mCompletionQueue->Shutdown();
 
-		mShutdown = false;
+		mShutdown = true;
 	}
 }
 
